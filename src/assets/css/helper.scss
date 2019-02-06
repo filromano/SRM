@@ -1,0 +1,24 @@
+$headerHeight: 60px;
+$lightblue: rgb(82, 170, 253);
+$darkblue: #16254b;
+$boxshadow: -3px -3px 14px 1px rgb(162, 160, 160);
+$boxpadding: 30px;
+
+%buttons{
+    display: block;
+    float: left;
+    margin-top: 20px;
+    width: 100%;
+    button{
+        float: left;
+        padding: 10px;
+        background: none;
+        border-color: $lightblue;
+        margin-bottom: 10px;
+        cursor: pointer;
+        &:hover{
+            background: $darkblue;
+            color: white;
+        }
+    }
+}
