@@ -1,4 +1,4 @@
-# srm
+# SRM
 
 ## Project setup
 ```
